@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SmashTrack
+
+**SmashTrack** is an all-in-one solution made for you and your friends to easily record match scores, track progress, and analyze performance of your badminton tournaments.
 
 ## Getting Started
 
-First, run the development server:
+Ensure you have the following dependencies installed:
+
+```bash
+nodejs
+npm
+mysql-server
+git
+```
+
+First, clone the repository and run the setup command:
+
+```bash
+git clone https://github.com/linuskangsoftware/smashtrack.git
+cd smashtrack
+npm install
+```
+
+Create the ``.env``: Add ``ADMIN_USER`` and ``ADMIN_PASSWORD`` variables and assign them both values.
+
+```
+ADMIN_USER="System"
+ADMIN_PASSWORD="YOUR_PASSWORD_HERE"
+```
+
+Your done, start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Head over to http://localhost:3000 and login to your user!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Licensing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+SmashTrack is under the Apache2.0 license.
 
-## Learn More
+**You may:**
 
-To learn more about Next.js, take a look at the following resources:
+✅ Use the code for personal or commercial projects (with attribution).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Modify the code freely to suit your needs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Distribute the modified code, as long as you don't modify the original license and have clearly attribute the original creator.
 
-## Deploy on Vercel
+✅ Contribute to the repository — any contributions you make will be under the same license (unless agreed otherwise in writing).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Use the code even if the repository is later shut down — but future access is not guaranteed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**You are not entitled to:**
+
+⛔ Resell the source code (as-is or modified) for money or profit without explicit written permission.
+
+⛔ Remove or obscure attribution to the original creator.
+
+⛔ Use it for illegal, unethical, or harmful purposes, including: Violating privacy, Infringing IP, Damaging systems or people.
+
+⛔ Claim any warranty or hold the creator liable for any issues or damages.
+
+⛔ Use or distribute the code without including the original license and attribution.
+
+⛔ Modify or ignore the license terms if redistributing — the license must stay intact in all versions.
